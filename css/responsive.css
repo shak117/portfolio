@@ -1,0 +1,228 @@
+/* ==========================================================================
+   SHASHANK PAWAR — DEVELOPER PORTFOLIO
+   Responsive Layout Breakpoints
+   Tested targets: 1440px, 1024px, 768px, 390px, 360px
+   ========================================================================== */
+
+/* Laptop & Compact Desktop (<= 1199px) */
+@media (max-width: 1199px) {
+  .pipeline-flow {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .pipeline-arrow {
+    display: none;
+  }
+}
+
+/* 1024px Laptop Breakpoint */
+@media (max-width: 1024px) {
+  :root {
+    --section-py: 80px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .hero-section {
+    min-height: auto;
+    padding-top: calc(var(--header-height) + 44px);
+    padding-bottom: 56px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .featured-project-card {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .about-grid,
+  .exp-edu-layout,
+  .contact-panel {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .infra-highlights-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* 768px Tablet Breakpoint */
+@media (max-width: 768px) {
+  :root {
+    --header-height: 66px;
+    --section-py: 68px;
+  }
+
+  .primary-nav,
+  .nav-cta {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .section-header {
+    margin-bottom: 36px;
+  }
+
+  .subsection-block {
+    margin-top: 64px;
+    padding-top: 56px;
+  }
+
+  .skills-grid,
+  .engineering-grid,
+  .infra-highlights-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contribution-list {
+    grid-template-columns: 1fr;
+  }
+
+  .pipeline-flow {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .pipeline-arrow {
+    display: flex;
+    transform: rotate(90deg);
+    padding-block: 2px;
+  }
+
+  .contact-panel {
+    padding: 28px 22px;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-meta {
+    text-align: left;
+  }
+}
+
+/* Mobile Breakpoints (390px and 360px) */
+@media (max-width: 480px) {
+  .container {
+    padding-inline: 16px;
+  }
+
+  .hero-section {
+    padding-top: calc(var(--header-height) + 32px);
+    padding-bottom: 44px;
+  }
+
+  .availability-pill {
+    font-size: 0.66rem;
+    padding: 6px 11px;
+    line-height: 1.4;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.98rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .workspace-topbar {
+    flex-wrap: wrap;
+    padding: 10px 12px;
+  }
+
+  .deploy-badge {
+    margin-left: auto;
+  }
+
+  .code-block {
+    padding-inline: 12px;
+    font-size: 0.74rem;
+  }
+
+  .ln {
+    width: 22px;
+  }
+
+  .workspace-terminal {
+    padding: 12px;
+  }
+
+  .featured-project-card,
+  .skill-card,
+  .engineering-card,
+  .pipeline-card,
+  .about-profile-card,
+  .timeline-card,
+  .credential-card {
+    padding: 20px 18px;
+  }
+
+  .project-actions {
+    flex-direction: column;
+  }
+
+  .project-actions .btn {
+    width: 100%;
+  }
+
+  .contact-cta-group {
+    flex-direction: column;
+  }
+
+  .contact-cta-group .btn {
+    width: 100%;
+  }
+
+  .back-to-top {
+    right: 16px;
+    bottom: 16px;
+  }
+}
+
+/* 360px Small Mobile Refinement */
+@media (max-width: 375px) {
+  .hero-title {
+    font-size: 1.84rem;
+  }
+
+  .section-title {
+    font-size: 1.68rem;
+  }
+
+  .timeline {
+    padding-left: 20px;
+  }
+
+  .timeline::before {
+    left: 4px;
+  }
+
+  .timeline-marker {
+    left: -20px;
+    width: 12px;
+    height: 12px;
+  }
+}

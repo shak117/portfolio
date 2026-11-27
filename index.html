@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shashank Pawar | Full Stack Developer | Python &amp; Web Development</title>
+  <meta name="description" content="Explore the portfolio of Shashank Pawar, a Full Stack Developer specializing in Python, Flask, web development, VPS hosting and cloud deployment.">
+  <meta name="author" content="Shashank Pawar">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#080B12">
+
+  <!-- Canonical URL Placeholder: Update with your final Vercel or custom domain -->
+  <link rel="canonical" href="https://shashankpawar.vercel.app/">
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Shashank Pawar — Developer Portfolio">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:title" content="Shashank Pawar | Full Stack Developer | Python &amp; Web Development">
+  <meta property="og:description" content="Explore the portfolio of Shashank Pawar, a Full Stack Developer specializing in Python, Flask, web development, VPS hosting and cloud deployment.">
+  <meta property="og:url" content="https://shashankpawar.vercel.app/">
+  <meta property="og:image" content="https://shashankpawar.vercel.app/assets/images/og-cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Shashank Pawar — Full Stack Developer | Python Developer | Web &amp; Cloud Technologies">
+
+  <!-- Twitter Card Metadata -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shashank Pawar | Full Stack Developer | Python &amp; Web Development">
+  <meta name="twitter:description" content="Explore the portfolio of Shashank Pawar, a Full Stack Developer specializing in Python, Flask, web development, VPS hosting and cloud deployment.">
+  <meta name="twitter:image" content="https://shashankpawar.vercel.app/assets/images/og-cover.png">
+
+  <!-- Favicon Placeholders / Assets -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+
+  <!-- Google Fonts: Space Grotesk (Headings), Inter (Body), JetBrains Mono (Workspace) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Progressive enhancement marker so reveal animations never hide content when JS is unavailable -->
+  <script>document.documentElement.classList.add('js-enabled');</script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Structured Data (Factual Identity Only) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Shashank Pawar",
+    "jobTitle": "Full Stack Developer | Python Developer",
+    "description": "Full Stack Developer specializing in Python, Flask, web development, VPS hosting and cloud deployment.",
+    "email": "mailto:pawarshashank222@gmail.com",
+    "telephone": "+91-8830464841",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Satara",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "IN"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Yashwantrao Chavan Institute of Science"
+    },
+    "sameAs": [
+      "https://linkedin.com/in/shashank-pawar-9a97a3352",
+      "https://github.com/shashankpawar/clinic-sync-ml"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Fixed Responsive Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand-logo" aria-label="Shashank Pawar — Back to top">
+        <span class="brand-mark">SP<span class="brand-dot">.</span></span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active" data-nav-link="home">Home</a></li>
+          <li><a href="#about" class="nav-link" data-nav-link="about">About</a></li>
+          <li><a href="#skills" class="nav-link" data-nav-link="skills">Skills</a></li>
+          <li><a href="#projects" class="nav-link" data-nav-link="projects">Projects</a></li>
+          <li><a href="#experience" class="nav-link" data-nav-link="experience">Experience</a></li>
+          <li><a href="#contact" class="nav-link" data-nav-link="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">Let's Talk</a>
+        <button
+          type="button"
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="mobile-nav-drawer"
+        >
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-backdrop" id="mobile-nav-backdrop" hidden></div>
+    <aside
+      class="mobile-nav-drawer"
+      id="mobile-nav-drawer"
+      aria-label="Mobile Navigation"
+      aria-hidden="true"
+      hidden
+    >
+      <div class="mobile-nav-header">
+        <span class="brand-mark">SP<span class="brand-dot">.</span></span>
+        <button
+          type="button"
+          class="mobile-nav-close"
+          id="mobile-nav-close"
+          aria-label="Close navigation menu"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <nav class="mobile-nav-links" aria-label="Mobile Menu Links">
+        <a href="#home" class="mobile-nav-link active" data-nav-link="home">Home</a>
+        <a href="#about" class="mobile-nav-link" data-nav-link="about">About</a>
+        <a href="#skills" class="mobile-nav-link" data-nav-link="skills">Skills</a>
+        <a href="#projects" class="mobile-nav-link" data-nav-link="projects">Projects</a>
+        <a href="#experience" class="mobile-nav-link" data-nav-link="experience">Experience</a>
+        <a href="#contact" class="mobile-nav-link" data-nav-link="contact">Contact</a>
+      </nav>
+      <div class="mobile-nav-footer">
+        <a href="#contact" class="btn btn-primary btn-block mobile-cta">Let's Talk</a>
+        <div class="mobile-nav-meta">
+          <a href="mailto:pawarshashank222@gmail.com">pawarshashank222@gmail.com</a>
+          <span>Satara, Maharashtra, India</span>
+        </div>
+      </div>
+    </aside>
+  </header>
+
+  <main id="main-content">
+    <!-- 1. HERO SECTION -->
+    <section class="hero-section" id="home" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="availability-pill hero-animate" style="--delay: 0ms;">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>AVAILABLE FOR SOFTWARE DEVELOPMENT INTERNSHIPS</span>
+          </div>
+
+          <h1 id="hero-heading" class="hero-title hero-animate" style="--delay: 70ms;">
+            Building <span class="text-accent">Digital Experiences</span>.<br>
+            Engineering Practical Solutions.
+          </h1>
+
+          <p class="hero-subtitle hero-animate" style="--delay: 140ms;">
+            I'm Shashank Pawar, a developer passionate about building web applications, solving real-world problems and deploying reliable digital products.
+          </p>
+
+          <p class="hero-role-meta hero-animate" style="--delay: 180ms;">
+            Full Stack Developer · Python Developer · Web &amp; Cloud Technologies
+          </p>
+
+          <div class="hero-actions hero-animate" style="--delay: 220ms;">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <button type="button" class="btn btn-secondary" data-action="download-resume">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Resume</span>
+            </button>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+
+          <div class="hero-tech-strip hero-animate" style="--delay: 280ms;" aria-label="Core Technologies">
+            <span class="tech-strip-label">Core Stack</span>
+            <p class="tech-strip-items">HTML · CSS · JavaScript · Python · Flask · GitHub · Cloud</p>
+          </div>
+        </div>
+
+        <!-- Right Side: Sophisticated Developer Workspace Visual -->
+        <div class="hero-workspace hero-animate" style="--delay: 160ms;" aria-label="Developer workspace code and deployment preview">
+          <div class="workspace-window">
+            <div class="workspace-topbar">
+              <div class="window-dots" aria-hidden="true">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+              <div class="workspace-tabs" role="tablist" aria-label="Workspace files">
+                <button
+                  type="button"
+                  class="workspace-tab is-active"
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="panel-app-py"
+                  id="tab-app-py"
+                  data-workspace-tab="app"
+                >
+                  app.py
+                </button>
+                <button
+                  type="button"
+                  class="workspace-tab"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="panel-deploy-yml"
+                  id="tab-deploy-yml"
+                  data-workspace-tab="deploy"
+                >
+                  deploy.yml
+                </button>
+              </div>
+              <div class="deploy-badge">
+                <span class="deploy-dot" aria-hidden="true"></span>
+                <span>CI/CD Ready</span>
+              </div>
+            </div>
+
+            <div class="workspace-body">
+              <div id="panel-app-py" class="code-panel is-active" role="tabpanel" aria-labelledby="tab-app-py">
+<pre class="code-block"><code><span class="code-line"><span class="ln">01</span><span class="kw">from</span> flask <span class="kw">import</span> Flask, jsonify, request</span>
+<span class="code-line"><span class="ln">02</span></span>
+<span class="code-line"><span class="ln">03</span>app = Flask(__name__)</span>
+<span class="code-line"><span class="ln">04</span></span>
+<span class="code-line"><span class="ln">05</span><span class="dec">@app.get</span>(<span class="str">"/api/health"</span>)</span>
+<span class="code-line"><span class="ln">06</span><span class="kw">def</span> <span class="fn">health_check</span>():</span>
+<span class="code-line"><span class="ln">07</span>    <span class="kw">return</span> jsonify({</span>
+<span class="code-line"><span class="ln">08</span>        <span class="str">"developer"</span>: <span class="str">"Shashank Pawar"</span>,</span>
+<span class="code-line"><span class="ln">09</span>        <span class="str">"stack"</span>: [<span class="str">"Python"</span>, <span class="str">"Flask"</span>, <span class="str">"FastAPI"</span>],</span>
+<span class="code-line"><span class="ln">10</span>        <span class="str">"target"</span>: <span class="str">"VPS / Cloud Deployment"</span></span>
+<span class="code-line"><span class="ln">11</span>    }), <span class="num">200</span></span>
+<span class="code-line"><span class="ln">12</span></span>
+<span class="code-line"><span class="ln">13</span><span class="kw">if</span> __name__ == <span class="str">"__main__"</span>:</span>
+<span class="code-line"><span class="ln">14</span>    app.run(host=<span class="str">"0.0.0.0"</span>, port=<span class="num">5000</span>)</span></code></pre>
+              </div>
+
+              <div id="panel-deploy-yml" class="code-panel" role="tabpanel" aria-labelledby="tab-deploy-yml" hidden>
+<pre class="code-block"><code><span class="code-line"><span class="ln">01</span><span class="key">name:</span> Build and Deploy Workflow</span>
+<span class="code-line"><span class="ln">02</span><span class="key">on:</span></span>
+<span class="code-line"><span class="ln">03</span>  <span class="key">push:</span></span>
+<span class="code-line"><span class="ln">04</span>    <span class="key">branches:</span> [ main ]</span>
+<span class="code-line"><span class="ln">05</span></span>
+<span class="code-line"><span class="ln">06</span><span class="key">jobs:</span></span>
+<span class="code-line"><span class="ln">07</span>  <span class="key">deploy:</span></span>
+<span class="code-line"><span class="ln">08</span>    <span class="key">runs-on:</span> ubuntu-latest</span>
+<span class="code-line"><span class="ln">09</span>    <span class="key">steps:</span></span>
+<span class="code-line"><span class="ln">10</span>      - <span class="key">uses:</span> actions/checkout@v4</span>
+<span class="code-line"><span class="ln">11</span>      - <span class="key">name:</span> Configure &amp; Restart Process</span>
+<span class="code-line"><span class="ln">12</span>        <span class="key">run:</span> pm2 restart app || docker compose up -d</span></code></pre>
+              </div>
+            </div>
+
+            <div class="workspace-terminal">
+              <div class="terminal-line">
+                <span class="terminal-prompt">shashank@vps:~/workspace$</span>
+                <span class="terminal-cmd" id="terminal-command-text">flask --app app run --host=0.0.0.0</span>
+                <span class="terminal-cursor" aria-hidden="true"></span>
+              </div>
+              <div class="workspace-status-bar">
+                <span>branch: main</span>
+                <span>env: linux / vps</span>
+                <span>location: satara, in</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator-wrap">
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down to About section">
+          <span class="scroll-indicator-text">Scroll</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT ME SECTION -->
+    <section class="section section-alt" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">01 / About Me</span>
+          <h2 id="about-heading" class="section-title">More Than Just Writing Code.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative reveal">
+            <p class="about-lead">
+              I'm a B.Sc. Data Science student with a strong interest in software engineering and full-stack development.
+            </p>
+            <p>
+              My experience includes developing websites for businesses across e-commerce, healthcare and service industries. I enjoy understanding client requirements, developing practical solutions and taking projects from development to deployment.
+            </p>
+            <p>
+              Beyond frontend and backend development, I have practical exposure to VPS hosting, application configuration, version control and deployment workflows.
+            </p>
+            <p>
+              I continuously explore new technologies and improve my engineering skills through hands-on projects. From frontend development and Python backend systems to VPS hosting and deployment, I enjoy turning business requirements into working software.
+            </p>
+          </div>
+
+          <aside class="about-profile-card reveal" aria-label="Academic and developer profile summary">
+            <div class="profile-card-header">
+              <span class="profile-card-tag">Developer Profile</span>
+              <span class="profile-card-badge">Satara, India</span>
+            </div>
+
+            <dl class="profile-specs">
+              <div class="spec-row">
+                <dt>Degree</dt>
+                <dd>B.Sc. Data Science</dd>
+              </div>
+              <div class="spec-row">
+                <dt>Academic Record</dt>
+                <dd>CGPA: 9.7/10</dd>
+              </div>
+              <div class="spec-row">
+                <dt>Location</dt>
+                <dd>Satara, Maharashtra</dd>
+              </div>
+              <div class="spec-row">
+                <dt>Primary Focus</dt>
+                <dd>Full Stack Development</dd>
+              </div>
+            </dl>
+
+            <div class="profile-card-footer">
+              <a href="#contact" class="btn btn-secondary btn-sm btn-block">Connect for Internships</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. TECHNICAL SKILLS SECTION -->
+    <section class="section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">02 / Technical Skills</span>
+          <h2 id="skills-heading" class="section-title">Full-Stack &amp; Infrastructure Capabilities</h2>
+          <p class="section-lead">
+            Practical tools and technologies applied across client websites, backend APIs, machine learning pipelines and production deployments.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Frontend -->
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </span>
+              <h3>Frontend Development</h3>
+            </div>
+            <ul class="skill-tags">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Responsive Web Design</li>
+            </ul>
+          </article>
+
+          <!-- Backend -->
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="8" rx="2"></rect>
+                  <rect x="2" y="13" width="20" height="8" rx="2"></rect>
+                  <line x1="6" y1="7" x2="6.01" y2="7"></line>
+                  <line x1="6" y1="17" x2="6.01" y2="17"></line>
+                </svg>
+              </span>
+              <h3>Backend Development</h3>
+            </div>
+            <ul class="skill-tags">
+              <li>Python</li>
+              <li>Flask</li>
+              <li>FastAPI</li>
+              <li>REST APIs</li>
+            </ul>
+          </article>
+
+          <!-- Databases -->
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </span>
+              <h3>Databases</h3>
+            </div>
+            <ul class="skill-tags">
+              <li>MySQL</li>
+              <li>SQLite</li>
+              <li>SQL</li>
+            </ul>
+          </article>
+
+          <!-- Cloud & Hosting -->
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+                </svg>
+              </span>
+              <h3>Cloud &amp; Hosting</h3>
+            </div>
+            <ul class="skill-tags">
+              <li>Hostinger VPS</li>
+              <li>Vercel</li>
+              <li>Render</li>
+              <li>Linux server environments</li>
+              <li>Application deployment</li>
+              <li>Domain and hosting configuration</li>
+            </ul>
+          </article>
+
+          <!-- Version Control & DevOps -->
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="18" cy="18" r="3"></circle>
+                  <circle cx="6" cy="6" r="3"></circle>
+                  <path d="M13 6h3a2 2 0 0 1 2 2v7"></path>
+                  <line x1="6" y1="9" x2="6" y2="21"></line>
+                </svg>
+              </span>
+              <h3>Version Control &amp; DevOps</h3>
+            </div>
+            <ul class="skill-tags">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>GitHub Actions</li>
+              <li>CI/CD workflows</li>
+              <li>Docker</li>
+              <li>PM2</li>
+            </ul>
+          </article>
+
+          <!-- Data & Machine Learning -->
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 3v18h18"></path>
+                  <path d="M18 17V9"></path>
+                  <path d="M13 17V5"></path>
+                  <path d="M8 17v-3"></path>
+                </svg>
+              </span>
+              <h3>Data &amp; Machine Learning</h3>
+            </div>
+            <ul class="skill-tags">
+              <li>Python</li>
+              <li>Pandas</li>
+              <li>NumPy</li>
+              <li>Scikit-learn</li>
+              <li>OpenCV</li>
+              <li>MLflow</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. FEATURED CLIENT PROJECTS SECTION -->
+    <section class="section section-alt" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">03 / Client Delivery</span>
+          <h2 id="projects-heading" class="section-title">Featured Client Projects</h2>
+          <p class="section-lead">
+            End-to-end client websites across e-commerce, wellness services and healthcare — engineered from frontend interfaces to server configuration and deployment.
+          </p>
+        </div>
+
+        <div class="featured-projects-list">
+          <!-- PROJECT 01: MAMA PEDHEWALE -->
+          <article class="featured-project-card reveal" data-project-card="mamaPedhewale">
+            <div class="project-media">
+              <div class="project-frame">
+                <img
+                  src="assets/screenshots/mama-pedhewale-placeholder.svg"
+                  alt="Screenshot placeholder for Mama Pedhewale e-commerce website awaiting final capture"
+                  width="1200"
+                  height="750"
+                  loading="lazy"
+                  decoding="async"
+                  data-project-screenshot="mamaPedhewale"
+                >
+              </div>
+              <span class="placeholder-note" data-screenshot-badge="mamaPedhewale">Screenshot Placeholder — Configure in js/main.js</span>
+            </div>
+
+            <div class="project-details">
+              <div class="project-meta-top">
+                <span class="project-index">PROJECT 01</span>
+                <span class="project-category">E-commerce Website</span>
+              </div>
+
+              <h3 class="project-title">Mama Pedhewale</h3>
+              <p class="project-desc">
+                An e-commerce website developed for a traditional sweets business, focusing on presenting products and supporting online customer ordering.
+              </p>
+
+              <div class="project-contribution">
+                <h4>My Contribution</h4>
+                <ul class="contribution-list">
+                  <li>Website development and frontend implementation.</li>
+                  <li>Product and order workflow development.</li>
+                  <li>Backend functionality and configuration.</li>
+                  <li>Payment integration work involving Razorpay.</li>
+                  <li>Shipping integration work involving Shiprocket.</li>
+                  <li>Deployment and production configuration.</li>
+                </ul>
+              </div>
+
+              <ul class="project-tags" aria-label="Technologies used in Mama Pedhewale">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python / Flask</li>
+                <li>API Integration</li>
+                <li>Deployment</li>
+              </ul>
+
+              <div class="project-actions">
+                <a
+                  href="#projects"
+                  class="btn btn-primary btn-sm"
+                  data-live-project="mamaPedhewale"
+                >
+                  <span>View Live Website</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a
+                  href="#projects"
+                  class="btn btn-secondary btn-sm"
+                  data-repo-project="mamaPedhewale"
+                  hidden
+                >
+                  <span>View Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 02: SK RELAX -->
+          <article class="featured-project-card reveal" data-project-card="skRelax">
+            <div class="project-media">
+              <div class="project-frame">
+                <img
+                  src="assets/screenshots/sk-relax-placeholder.svg"
+                  alt="Screenshot placeholder for SK Relax salon website awaiting final capture"
+                  width="1200"
+                  height="750"
+                  loading="lazy"
+                  decoding="async"
+                  data-project-screenshot="skRelax"
+                >
+              </div>
+              <span class="placeholder-note" data-screenshot-badge="skRelax">Screenshot Placeholder — Configure in js/main.js</span>
+            </div>
+
+            <div class="project-details">
+              <div class="project-meta-top">
+                <span class="project-index">PROJECT 02</span>
+                <span class="project-category">Salon &amp; Business Website</span>
+              </div>
+
+              <h3 class="project-title">SK Relax</h3>
+              <p class="project-desc">
+                A premium digital presence developed for a salon business, designed to showcase services and simplify customer enquiries and booking interactions.
+              </p>
+
+              <div class="project-contribution">
+                <h4>My Contribution</h4>
+                <ul class="contribution-list">
+                  <li>Responsive website development.</li>
+                  <li>Premium visual design.</li>
+                  <li>Video-based hero section.</li>
+                  <li>Scroll animations and interactive UI.</li>
+                  <li>WhatsApp booking/contact integration.</li>
+                  <li>Hostinger VPS hosting and server configuration.</li>
+                  <li>Website maintenance and deployment workflows.</li>
+                </ul>
+              </div>
+
+              <ul class="project-tags" aria-label="Technologies used in SK Relax">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>VPS Hosting</li>
+                <li>GitHub</li>
+                <li>Deployment</li>
+              </ul>
+
+              <div class="project-actions">
+                <a
+                  href="#projects"
+                  class="btn btn-primary btn-sm"
+                  data-live-project="skRelax"
+                >
+                  <span>View Live Website</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a
+                  href="#projects"
+                  class="btn btn-secondary btn-sm"
+                  data-repo-project="skRelax"
+                  hidden
+                >
+                  <span>View Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 03: MAHAJAN HOSPITAL -->
+          <article class="featured-project-card reveal" data-project-card="mahajanHospital">
+            <div class="project-media">
+              <div class="project-frame">
+                <img
+                  src="assets/screenshots/mahajan-hospital-placeholder.svg"
+                  alt="Screenshot placeholder for Mahajan Hospital healthcare website awaiting final capture"
+                  width="1200"
+                  height="750"
+                  loading="lazy"
+                  decoding="async"
+                  data-project-screenshot="mahajanHospital"
+                >
+              </div>
+              <span class="placeholder-note" data-screenshot-badge="mahajanHospital">Screenshot Placeholder — Configure in js/main.js</span>
+            </div>
+
+            <div class="project-details">
+              <div class="project-meta-top">
+                <span class="project-index">PROJECT 03</span>
+                <span class="project-category">Healthcare Website</span>
+              </div>
+
+              <h3 class="project-title">Mahajan Hospital</h3>
+              <p class="project-desc">
+                A professional healthcare website developed to establish an online presence and present hospital services and information clearly.
+              </p>
+
+              <div class="project-contribution">
+                <h4>My Contribution</h4>
+                <ul class="contribution-list">
+                  <li>Website development and page structure.</li>
+                  <li>Responsive frontend implementation.</li>
+                  <li>Healthcare service presentation.</li>
+                  <li>User experience improvements.</li>
+                  <li>Website deployment and updates.</li>
+                </ul>
+              </div>
+
+              <ul class="project-tags" aria-label="Technologies used in Mahajan Hospital">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Deployment</li>
+              </ul>
+
+              <div class="project-actions">
+                <a
+                  href="#projects"
+                  class="btn btn-primary btn-sm"
+                  data-live-project="mahajanHospital"
+                >
+                  <span>View Live Website</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a
+                  href="#projects"
+                  class="btn btn-secondary btn-sm"
+                  data-repo-project="mahajanHospital"
+                  hidden
+                >
+                  <span>View Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- 5. ENGINEERING & TECHNICAL PROJECTS -->
+        <div class="subsection-block" id="engineering-projects">
+          <div class="section-header reveal">
+            <span class="section-eyebrow">04 / Backend, Systems &amp; ML</span>
+            <h2 class="section-title">Engineering &amp; Technical Projects</h2>
+            <p class="section-lead">
+              Backend applications, computer vision systems and machine learning APIs built with Python, Flask, FastAPI and SQL databases.
+            </p>
+          </div>
+
+          <div class="engineering-grid">
+            <!-- CLINICSYNC -->
+            <article class="engineering-card reveal">
+              <div class="eng-card-top">
+                <span class="eng-type">SaaS Application</span>
+                <a
+                  href="https://github.com/shashankpawar/clinic-sync-ml"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="eng-repo-link"
+                  aria-label="View ClinicSync repository on GitHub"
+                  data-eng-repo="clinicSync"
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+              <h3>ClinicSync</h3>
+              <p>Clinic management SaaS application developed using Flask and MySQL.</p>
+              <ul class="eng-tags">
+                <li>Python</li>
+                <li>Flask</li>
+                <li>MySQL</li>
+              </ul>
+            </article>
+
+            <!-- AI ATTENDANCE SYSTEM -->
+            <article class="engineering-card reveal">
+              <div class="eng-card-top">
+                <span class="eng-type">Computer Vision System</span>
+                <a
+                  href="#engineering-projects"
+                  class="eng-repo-link eng-repo-placeholder"
+                  data-eng-repo="aiAttendance"
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>GitHub (Placeholder)</span>
+                </a>
+              </div>
+              <h3>AI Attendance System</h3>
+              <p>Python, OpenCV, LBPH face recognition and SQLite-based attendance management system with registration, tracking and reporting.</p>
+              <ul class="eng-tags">
+                <li>Python</li>
+                <li>OpenCV</li>
+                <li>LBPH</li>
+                <li>SQLite</li>
+              </ul>
+            </article>
+
+            <!-- CREDIT RISK STRATIFICATION -->
+            <article class="engineering-card reveal">
+              <div class="eng-card-top">
+                <span class="eng-type">ML Pipeline &amp; API</span>
+                <a
+                  href="#engineering-projects"
+                  class="eng-repo-link eng-repo-placeholder"
+                  data-eng-repo="creditRisk"
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>GitHub (Placeholder)</span>
+                </a>
+              </div>
+              <h3>Credit Risk Stratification</h3>
+              <p>Machine learning workflow using Python, Scikit-learn, SQL and MLflow, with FastAPI API development.</p>
+              <ul class="eng-tags">
+                <li>Python</li>
+                <li>Scikit-learn</li>
+                <li>SQL</li>
+                <li>MLflow</li>
+                <li>FastAPI</li>
+              </ul>
+            </article>
+
+            <!-- HEART DISEASE PREDICTION -->
+            <article class="engineering-card reveal">
+              <div class="eng-card-top">
+                <span class="eng-type">Predictive REST API</span>
+                <a
+                  href="#engineering-projects"
+                  class="eng-repo-link eng-repo-placeholder"
+                  data-eng-repo="heartDisease"
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>GitHub (Placeholder)</span>
+                </a>
+              </div>
+              <h3>Heart Disease Prediction</h3>
+              <p>Machine learning application with preprocessing, model evaluation and FastAPI REST APIs.</p>
+              <ul class="eng-tags">
+                <li>Python</li>
+                <li>Scikit-learn</li>
+                <li>FastAPI</li>
+                <li>REST APIs</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. CLOUD & DEPLOYMENT EXPERIENCE SECTION -->
+    <section class="section" id="cloud-deployment" aria-labelledby="cloud-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">05 / Infrastructure &amp; Delivery</span>
+          <h2 id="cloud-heading" class="section-title">From Development to Deployment.</h2>
+          <p class="section-lead">
+            Shipping reliable software requires understanding how frontend interfaces, backend APIs, version control and server hosting connect in production.
+          </p>
+        </div>
+
+        <!-- Responsive Pipeline Diagram -->
+        <div class="pipeline-card reveal" aria-label="Software delivery and deployment pipeline">
+          <ol class="pipeline-flow">
+            <li class="pipeline-step">
+              <span class="step-num">01</span>
+              <span class="step-title">Code Development</span>
+              <span class="step-sub">HTML/CSS/JS · Python</span>
+            </li>
+            <li class="pipeline-arrow" aria-hidden="true">→</li>
+            <li class="pipeline-step">
+              <span class="step-num">02</span>
+              <span class="step-title">GitHub Repository</span>
+              <span class="step-sub">Version Control</span>
+            </li>
+            <li class="pipeline-arrow" aria-hidden="true">→</li>
+            <li class="pipeline-step">
+              <span class="step-num">03</span>
+              <span class="step-title">GitHub Actions / CI-CD</span>
+              <span class="step-sub">Automated Workflows</span>
+            </li>
+            <li class="pipeline-arrow" aria-hidden="true">→</li>
+            <li class="pipeline-step">
+              <span class="step-num">04</span>
+              <span class="step-title">Build &amp; Deployment</span>
+              <span class="step-sub">Docker · PM2 · Config</span>
+            </li>
+            <li class="pipeline-arrow" aria-hidden="true">→</li>
+            <li class="pipeline-step">
+              <span class="step-num">05</span>
+              <span class="step-title">Vercel / Hostinger VPS / Render</span>
+              <span class="step-sub">Hosting &amp; Domains</span>
+            </li>
+            <li class="pipeline-arrow" aria-hidden="true">→</li>
+            <li class="pipeline-step pipeline-step-final">
+              <span class="step-num">06</span>
+              <span class="step-title">Live Application</span>
+              <span class="step-sub">Production Ready</span>
+            </li>
+          </ol>
+        </div>
+
+        <div class="infra-highlights-grid">
+          <article class="infra-card reveal">
+            <h3>VPS &amp; Linux Server Setup</h3>
+            <p>
+              Practical experience with Hostinger VPS, hosting and deploying websites, working with Linux server environments, process management (PM2), Docker containers and domain/hosting configuration.
+            </p>
+          </article>
+
+          <article class="infra-card reveal">
+            <h3>Version Control &amp; CI/CD</h3>
+            <p>
+              Structured GitHub source control paired with GitHub Actions and CI/CD workflow experience to streamline builds, configuration checks and deployment updates.
+            </p>
+          </article>
+
+          <article class="infra-card reveal">
+            <h3>Cloud Platforms &amp; Architecture</h3>
+            <p>
+              Hands-on deployment using Vercel and Render alongside solid understanding of frontend/backend application architecture and REST API connectivity.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. EXPERIENCE & EDUCATION SECTION -->
+    <section class="section section-alt" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">06 / Experience &amp; Background</span>
+          <h2 id="experience-heading" class="section-title">Experience, Education &amp; Certifications</h2>
+        </div>
+
+        <div class="exp-edu-layout">
+          <!-- Vertical Timeline: Experience -->
+          <div class="experience-column">
+            <h3 class="column-heading reveal">Work Experience</h3>
+            <div class="timeline">
+              <article class="timeline-item reveal">
+                <div class="timeline-marker" aria-hidden="true"></div>
+                <div class="timeline-card">
+                  <div class="timeline-header">
+                    <div>
+                      <h4>Data Engineer Intern</h4>
+                      <p class="timeline-org">ZyberWeave</p>
+                    </div>
+                    <span class="timeline-date">Jul 2026 – Present</span>
+                  </div>
+                  <ul class="timeline-list">
+                    <li>Assist in developing and maintaining ETL pipelines using Python and SQL.</li>
+                    <li>Perform data cleaning, transformation and validation.</li>
+                    <li>Support reporting and data integration tasks.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="timeline-item reveal">
+                <div class="timeline-marker" aria-hidden="true"></div>
+                <div class="timeline-card">
+                  <div class="timeline-header">
+                    <div>
+                      <h4>Data Analyst Intern</h4>
+                      <p class="timeline-org">Nooral.ai</p>
+                    </div>
+                    <span class="timeline-date">May 2026 – Present</span>
+                  </div>
+                  <ul class="timeline-list">
+                    <li>Exploratory data analysis.</li>
+                    <li>Data preparation using Python, Pandas and NumPy.</li>
+                    <li>Feature engineering and machine learning support.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="timeline-item reveal">
+                <div class="timeline-marker" aria-hidden="true"></div>
+                <div class="timeline-card">
+                  <div class="timeline-header">
+                    <div>
+                      <h4>QA Tester</h4>
+                      <p class="timeline-org">Real-World Website Testing</p>
+                    </div>
+                  </div>
+                  <ul class="timeline-list">
+                    <li>Functional and UI testing.</li>
+                    <li>Test scenario preparation.</li>
+                    <li>Defect reporting and retesting.</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Education & Certifications -->
+          <div class="credentials-column">
+            <div class="credential-block reveal">
+              <h3 class="column-heading">Education</h3>
+              <article class="credential-card">
+                <div class="credential-badge">Undergraduate Degree</div>
+                <h4>B.Sc. Data Science</h4>
+                <p class="credential-institution">Yashwantrao Chavan Institute of Science</p>
+                <div class="credential-metric">
+                  <span>CGPA</span>
+                  <strong>9.7 / 10</strong>
+                </div>
+              </article>
+            </div>
+
+            <div class="credential-block reveal">
+              <h3 class="column-heading">Certifications</h3>
+              <ul class="certifications-list">
+                <li class="cert-item">
+                  <span class="cert-icon" aria-hidden="true">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="8" r="6"></circle>
+                      <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+                    </svg>
+                  </span>
+                  <div>
+                    <p class="cert-title">Deloitte Data Analytics Job Simulation</p>
+                    <p class="cert-issuer">Forage</p>
+                  </div>
+                </li>
+                <li class="cert-item">
+                  <span class="cert-icon" aria-hidden="true">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="8" r="6"></circle>
+                      <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+                    </svg>
+                  </span>
+                  <div>
+                    <p class="cert-title">Data Labelling Job Simulation</p>
+                    <p class="cert-issuer">Forage</p>
+                  </div>
+                </li>
+                <li class="cert-item">
+                  <span class="cert-icon" aria-hidden="true">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="8" r="6"></circle>
+                      <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+                    </svg>
+                  </span>
+                  <div>
+                    <p class="cert-title">MATLAB Onramp</p>
+                    <p class="cert-issuer">MathWorks</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. CONTACT SECTION -->
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <div class="contact-intro">
+            <span class="section-eyebrow">07 / Contact</span>
+            <h2 id="contact-heading" class="section-title">Have a Project or Opportunity in Mind?</h2>
+            <p class="contact-lead">
+              I'm open to software development internships, collaborative projects and opportunities to build meaningful technology solutions.
+            </p>
+
+            <div class="contact-cta-group">
+              <a
+                href="mailto:pawarshashank222@gmail.com?subject=Internship%20%2F%20Project%20Opportunity%20-%20Shashank%20Pawar"
+                class="btn btn-primary"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+                <span>Send Email</span>
+              </a>
+
+              <a
+                href="https://wa.me/918830464841?text=Hi%20Shashank%2C%20I%20visited%20your%20developer%20portfolio%20and%20would%20like%20to%20connect."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-secondary"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+                <span>Message on WhatsApp</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-channels" aria-label="Direct contact channels">
+            <div class="contact-channel-card">
+              <div class="channel-head">
+                <span class="channel-label">Email</span>
+                <button
+                  type="button"
+                  class="copy-btn"
+                  id="copy-email-btn"
+                  data-copy-value="pawarshashank222@gmail.com"
+                  aria-label="Copy email address"
+                >
+                  Copy
+                </button>
+              </div>
+              <a href="mailto:pawarshashank222@gmail.com" class="channel-value">pawarshashank222@gmail.com</a>
+            </div>
+
+            <div class="contact-channel-card">
+              <span class="channel-label">Phone / WhatsApp</span>
+              <a href="tel:+918830464841" class="channel-value">+91-8830464841</a>
+            </div>
+
+            <div class="contact-channel-card">
+              <span class="channel-label">LinkedIn</span>
+              <a
+                href="https://linkedin.com/in/shashank-pawar-9a97a3352"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="channel-value"
+              >
+                linkedin.com/in/shashank-pawar-9a97a3352
+              </a>
+            </div>
+
+            <div class="contact-channel-card">
+              <span class="channel-label">GitHub</span>
+              <a
+                href="https://github.com/shashankpawar/clinic-sync-ml"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="channel-value"
+              >
+                github.com/shashankpawar/clinic-sync-ml
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Minimal Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-name">SHASHANK PAWAR</p>
+        <p class="footer-role">Full Stack Developer | Python Developer</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Footer social links">
+        <a href="https://linkedin.com/in/shashank-pawar-9a97a3352" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <span class="footer-sep" aria-hidden="true">|</span>
+        <a href="https://github.com/shashankpawar/clinic-sync-ml" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <span class="footer-sep" aria-hidden="true">|</span>
+        <a href="mailto:pawarshashank222@gmail.com">Email</a>
+      </nav>
+
+      <div class="footer-meta">
+        <p>Designed &amp; Developed by Shashank Pawar</p>
+        <p class="footer-copy">&copy; <span id="current-year"></span> Shashank Pawar. Satara, Maharashtra, India.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button
+    type="button"
+    class="back-to-top"
+    id="back-to-top"
+    aria-label="Back to top"
+    hidden
+  >
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Accessible Configuration / Placeholder Info Modal -->
+  <div class="modal-backdrop" id="info-modal-backdrop" hidden></div>
+  <div
+    class="info-modal"
+    id="info-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="info-modal-title"
+    aria-describedby="info-modal-desc"
+    hidden
+  >
+    <div class="info-modal-header">
+      <span class="info-modal-eyebrow" id="info-modal-eyebrow">Placeholder Configuration</span>
+      <button type="button" class="info-modal-close" id="info-modal-close" aria-label="Close dialog">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <h3 class="info-modal-title" id="info-modal-title">Asset Not Yet Attached</h3>
+    <p class="info-modal-desc" id="info-modal-desc"></p>
+    <div class="info-modal-code" id="info-modal-code"></div>
+    <div class="info-modal-actions">
+      <a
+        href="mailto:pawarshashank222@gmail.com?subject=Portfolio%20Inquiry%20-%20Shashank%20Pawar"
+        class="btn btn-primary btn-sm"
+        id="info-modal-primary-action"
+      >
+        Request via Email
+      </a>
+      <button type="button" class="btn btn-secondary btn-sm" id="info-modal-dismiss">Close</button>
+    </div>
+  </div>
+
+  <!-- Live Status Toast -->
+  <div class="toast" id="status-toast" role="status" aria-live="polite" hidden></div>
+
+  <!-- Scripts -->
+  <script src="js/animations.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

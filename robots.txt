@@ -1,0 +1,6 @@
+# Robots configuration for Shashank Pawar Developer Portfolio
+User-agent: *
+Allow: /
+
+# Update sitemap domain to match your final Vercel or custom domain
+Sitemap: https://shashankpawar.vercel.app/sitemap.xml
